@@ -1,0 +1,40 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile-image {
+    float: right;
+}
+
+
+
+
+    
+h1,
+h2
+{
+
+    color: blueviolet;
+    background-color: lightskyblue;
+    
+}
+h1:hover, h2:hover{
+    color: blue;
+    font-size: xx-large;
+}
+
+
+.multi-column {
+    columns: 2;
+}
+
+ .input-field {
+    font-size: 2rem;
+    border-color: darkslategray;
+    border-style: dotted;
+    float: right;
+    background-image: url("wallpaper.png");
+ }
+    
+ 
+ 
