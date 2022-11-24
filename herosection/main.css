@@ -1,0 +1,314 @@
+.text {
+    animation-name: backgroundanimation;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+    width: 1400px;
+    height: 100px;
+}
+@keyframes backgroundanimation {
+    from {
+        background-color: rgb(2, 19, 30);
+    }
+    to {
+        background-color: rgb(169, 169, 201);
+    }
+    from {
+        color: rgb(169, 169, 201);
+    }
+    to {
+        color: rgb(2, 19, 30);
+    }
+    
+}
+.image-container-1 {
+
+    display: grid;
+    gap: 20px;
+    row-gap: 20px;
+    justify-content: space-between;
+    padding-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.image-container-2 {
+    display: grid;
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.text-container {
+    display: grid;
+    
+    background-color: rgb(233, 175, 175);
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}
+body {
+    background-color: darkgrey;
+}
+.text-container-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    padding-top: 200px;
+    height: 50px;
+
+    
+}
+@media screen  and (max-width: 1200px){
+    .image-container-1 {
+     grid-template-columns: 1fr 1fr;
+     background-color: cornflowerblue;
+    } 
+ }
+ @media screen  and (max-width: 600px){
+     .image-container-1 {
+      grid-template-columns: 1fr;
+      background-color: cornflowerblue;
+     } 
+  }
+  @media screen  and (max-width: 1200px){
+     .image-container-2 {
+      grid-template-columns: 1fr 1fr;
+      background-color: cornflowerblue;
+     } 
+  }
+  @media screen  and (max-width: 600px){
+     .image-container-2 {
+      grid-template-columns: 1fr;
+      background-color: cornflowerblue;
+     } 
+  }
+.text {
+    color: black;
+    font-size: 50px;
+    position: absolute; top: 600px; 
+    text-align: center;
+}
+.background {
+    width: 1400px;
+    
+}
+.hatsunemiku {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 1300px;
+    animation-name: hatsunemikuanimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemikuanimation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku1 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 1200px;
+    animation-name: hatsunemiku1animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku1animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku2 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 1100px;
+    animation-name: hatsunemiku2animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku2animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku3 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 1000px;
+    animation-name: hatsunemiku3animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku3animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku4 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 900px;
+    animation-name: hatsunemiku4animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku4animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku5 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 800px;
+    animation-name: hatsunemiku5animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku5animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku6 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 700px;
+    animation-name: hatsunemiku6animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku6animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku7 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 600px;
+    animation-name: hatsunemiku7animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku7animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku8 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 500px;
+    animation-name: hatsunemiku8animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku8animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku9 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 400px;
+    animation-name: hatsunemiku9animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku9animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku10 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 300px;
+    animation-name: hatsunemiku10animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku10animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku11 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 200px;
+    animation-name: hatsunemiku11animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku11animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
+.hatsunemiku12 {
+    width: 50px;
+    height: 50px;
+    position: absolute; top: 50px; right: 100px;
+    animation-name: hatsunemiku12animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes hatsunemiku12animation {
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(600px);
+    }
+}
